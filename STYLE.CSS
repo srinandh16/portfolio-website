@@ -1,0 +1,226 @@
+
+            
+header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #171616;
+    text-align: left;
+ 
+ }
+ body{
+    background-color: #292828;
+    background-image: url(file:///Users/srinandhreddygaddam/Downloads/DALL·E.webp);
+    background-size:cover;
+    
+    
+ }
+ 
+ .aboutme{
+ 
+    color:#111111;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    justify-content:space-between;
+    background:transparent;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px;
+ 
+ }
+    
+ 
+ 
+ 
+ .navbar{
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+    background:transparent;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(238, 235, 235, 0.5);
+ 
+ }
+ 
+ .qualifications{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+    background:transparent;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px;
+ 
+ }
+ 
+ #Skills{
+    
+    justify-content:space-between;
+    padding: 10px;
+    background:transparent;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px;
+ 
+ }
+ #Education{
+    
+    justify-content:space-between;
+    padding: 10px;
+    background:transparent;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px;
+    color:#090808;
+ }
+ 
+ #Experience{
+    
+    justify-content:space-between;
+    padding: 10px;
+    background:transparent;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px;
+    color:#080707
+ }
+ 
+ #contact{
+    color:#201f1f;
+    font-size: 18px;
+ 
+ }
+    
+ 
+ .heading{
+    font-size: 24px;
+    font-weight: bold;
+    color: #0b0a0a;
+    text-align: left;
+    padding: 10px;
+    background:transparent;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(238, 235);
+    }
+ 
+ 
+ nav ul li 
+ 
+ {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(238, 235);
+    cursor: pointer;
+ 
+    }
+    nav ul li a {
+       text-decoration:none;
+        color: #090808;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 10px;
+        border-radius: 10px;
+ 
+    }
+    nav ul li a:hover {
+        background-color: #95aac1;
+        color:rgb(80, 42, 42);
+        
+    }
+   
+    
+ 
+ 
+ 
+ h1{
+    font-size: 36px;
+    font-weight: bold;
+    color: #171717;
+    text-align: center;
+ }
+ 
+ h1 span {
+ 
+    color: maroon;
+    font-style: italic;
+ }
+ 
+ .about h1{
+    font-size: 24px;
+    font-weight: bold;
+    color: #0b0a0a;
+    text-align: center;
+ 
+ }
+ 
+ .E-Commerce ol li {
+   list-style: none;
+   color:rgb(35, 33, 33);
+   font-size: 18px;
+ 
+    
+ }
+ 
+ #skills ul li span{
+    font-size: 25px;
+    color: maroon;
+    padding: 10px;
+    border-radius: 10px;
+ }
+ #skills ul li{
+    font-size:23px;
+    padding: 10px;
+    border-radius: 10px;
+    color:#1b1a1a;
+ }
+ 
+ .tab-titles{
+ display:flex;
+ margin:20px 0 40px;
+ color:rgb(14, 13, 13);
+ font-size: 90px;
+ }
+ .tab-links{
+    margin-right: 50px;
+    font-size:18px;
+    font-weight:500;
+    cursor:pointer;
+    position: relative;
+ }
+ .tab-links:hover{
+   
+    display:flex;
+    justify-content: space-between;
+    background:transparent;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(238, 235, 235, 0.5);
+    transition:0.7s;
+ 
+    }
+ .tab-links::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background: #0d0303;
+    left: 0;
+    bottom: -8px;
+    transition:all;
+    }
+ 
+ .tab-links.active-link::after{
+    width: 50%;
+ }
+ 
+ .tab-contents{
+ 
+    display:none;
+ }
+ .tab-contents.active-tab{
+    display:block;
+ 
+ }
