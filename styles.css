@@ -142,6 +142,10 @@ footer{
     margin-top: 20px;
     height: 200px;
 }
+
+
+
+                       
 @media (min-width: 430px) and (max-width: 900px) {
     #skills{
         display:grid;
@@ -155,6 +159,11 @@ footer{
   .Experience > * {
         margin-bottom: 15px;
     }
+
+    #skills > * {
+        margin-bottom: 10px;
+    }
+}
 
     #skills > * {
         margin-bottom: 10px;
