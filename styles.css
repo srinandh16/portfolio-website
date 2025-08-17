@@ -142,41 +142,7 @@ footer{
     margin-top: 20px;
     height: 200px;
 }
-
-@media (max-width: 900px) {
-    .Experience {
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-template-rows: auto;
-        width: 100%;
-        margin: 20px auto 0 auto;
-        text-align: left;
-        gap: 20px;
-    }
-
-    #skills {
-       display:block;
-       text-align: left;
-    }
-
-    .Education {
-        font-size: 12px;
-    }
-
-    .projects {
-        font-size: 15px;
-    }
-
-    .bottom-card {
-        font-size: 12px;
-    }
-
-    footer {
-        font-size: 12px;
-    }
-}
-
-                       
-@media (min-width: 430px) {
+@media (min-width: 430px) and (max-width: 900px) {
     #skills{
         display:grid;
         grid-template-columns: auto;
